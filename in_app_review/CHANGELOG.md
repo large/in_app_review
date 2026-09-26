@@ -1,3 +1,14 @@
+# [2.1.0]
+
+- Support AGP 9 with built-in Kotlin (`kotlin-android` and `kotlinOptions` removed).
+- Require Flutter 3.44 / Dart 3.12, compile against SDK 36, Java 17, minSdk 23.
+- Drop the unused `review-ktx` and `play-services-base` dependencies.
+- Remove the deprecated `package` attribute from the Android manifest.
+- Add real Android unit tests (JUnit 5 launcher was missing).
+- Add the required `FlutterFramework` dependency to the Swift packages.
+- Raise minimums to iOS 13 and macOS 12.
+- Add the missing `NSPrivacyAccessedAPITypes` key to the macOS privacy manifest.
+
 # [2.0.12]
 
 - Fix an Android NullPointerException that sometimes occurred when apps were backgrounded.

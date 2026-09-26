@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'in_app_review'
-  s.version          = '2.0.0'
+  s.version          = '2.1.0'
   s.summary          = 'Flutter plugin for showing the In-App Review/System Rating pop up.'
   s.description      = <<-DESC
 Flutter plugin for showing the In-App Review/System Rating pop up.
@@ -24,7 +24,7 @@ Flutter plugin for showing the In-App Review/System Rating pop up.
 
   s.dependency 'FlutterMacOS'
 
-  s.platform = :osx, '10.11'
+  s.platform = :osx, '12.0'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end
